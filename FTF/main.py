@@ -64,3 +64,8 @@ corp_gr['Анализ экспертов']=show_corp_expert
 corp_gr['Действительные данные']=show_corp_real
 corp_gr.plot(xlabel='Год',ylabel='Млрд рублей',title='Налоги на доходы организаций',xticks=[2015,2016,2017], figsize=(10,10))
 plt.show()
+
+print("Предсказание основных доходных источников на 2015-2017гг., используя прогнозируемые данные")
+for i in range (0,2):
+    for j in range (0,3):
+        print(res[i][j])
