@@ -64,3 +64,10 @@ corp_gr['Анализ экспертов']=show_corp_expert
 corp_gr['Действительные данные']=show_corp_real
 corp_gr.plot(xlabel='Год',ylabel='Млрд рублей',title='Налоги на доходы организаций',xticks=[2015,2016,2017], figsize=(10,10))
 plt.show()
+
+print(res[0][0])
+print(res[0][1])
+print(res[0][2])
+print(res[1][0])
+print(res[1][1])
+print(res[1][2])

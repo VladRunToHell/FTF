@@ -1,5 +1,3 @@
-
-
 function showname () {
       var nameas = document.getElementById('text');
       var button = document.getElementById("first")

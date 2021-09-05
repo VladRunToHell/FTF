@@ -269,8 +269,8 @@ select {
     position: absolute;
     left: 45.2%;
     right: 45.2%;
-    top: 54.88%;
-    bottom: 28%;
+    top: 52.5%;
+    bottom: 29.5%;
 
     background: url(../img/logo2.png);
     background-repeat: no-repeat;
@@ -432,24 +432,28 @@ select {
 /*Две плашки для графиков*/
 .graph1{
     position: absolute;
-    left: 21.67%;
+    left: 19.67%;
     right: 56.33%;
-    top: 44.62%;
-    bottom: 17%;
+    top: 44.12%;
+    bottom: 21.12%;
 
-    background: #FFFFFF;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-image: url(../img/graph1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    /*box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);*/
 }
 
 .graph2{
     position: absolute;
     left: 56.33%;
-    right: 21.67%;
-    top: 44.75%;
-    bottom: 17%;
+    right: 19.67%;
+    top: 44.12%;
+    bottom: 21.12%;
 
-    background: #FFFFFF;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-image: url(../img/graph2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    /*box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);*/
 }
 
 /*_________________Пачка настроек элементов таблицы_________________*/
